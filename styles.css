@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0e2263;
+  padding: 10px;
+  
+}
+nav a{
+    color: #ffffff;
+    padding-right: 50px;
+}
+nav img{
+  width: 60px;
+  border-radius: 50px;
+}
+.mobile1{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./mobile1.jpg);
+  background-size: contain;
+  padding-top: 50px;
+  font-size: 2rem;
+}
+.about{
+    background: #51bbfc;
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px;
+}
+.reg{
+    background: #4da9ff;
+    padding: 20px;
+    margin-top: 50px;
+    width: 600px;
+    border-radius: 20px;
+}
+.table{
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    width: 80vw;
+    
+}
+footer{
+    text-align: center;
+    background: #0e2263;
+    color: #ffffff;
+    padding: 50px;
+    margin-top: 20px;
+}
